@@ -14,4 +14,6 @@ console.log(userLastName);
 var userFavoriteColor = prompt("Mi dici il tuo colore preferito");
 console.log(userFavoriteColor);
 
-document.getElementById("password").innerHTML = userName + userLastName + userFavoriteColor + "21";
+var yourPassword = userName + userLastName + userFavoriteColor + "21";
+
+document.getElementById("password").innerHTML = yourPassword;
